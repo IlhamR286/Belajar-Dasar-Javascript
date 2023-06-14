@@ -4,6 +4,8 @@ const coffeStock = {
   liberica: 200,
 };
 
-const isCoffeMachineReady = false;
-
-module.exports = { coffeStock, isCoffeMachineReady };
+const isCoffeMachineReady = true;
+// Mengunakan export node
+// module.exports = { coffeStock, isCoffeMachineReady };
+// Menggunakan export ES6
+export { coffeStock, isCoffeMachineReady };
